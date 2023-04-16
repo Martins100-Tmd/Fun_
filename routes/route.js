@@ -13,9 +13,6 @@ route.use(
     extended: true,
   })
 );
-// sql = `CREATE TABLE ${Db_Name}(id INTEGER PRIMARY KEY, name, email)`;
-// DB.run(sql);
-// DB.run("DROP TABLE BATMAN");
 
 //@get route
 route.get("/get", (req, res) => {
